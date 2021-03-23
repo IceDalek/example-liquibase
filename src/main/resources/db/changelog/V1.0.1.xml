@@ -6,6 +6,8 @@
 
     <changeSet id="2020-05-25 11:11:00" author="kbulychev">
         <sqlFile path="1.0.1/sql/01__create_account_table.sql" relativeToChangelogFile="true"/>
+        <sqlFile path="1.0.1/sql/02__create_person_table.sql" relativeToChangelogFile="true"/>
+        <sqlFile path="1.0.1/sql/03__create_employment_table.sql" relativeToChangelogFile="true"/>
         <rollback>
             <sqlFile path="1.0.1/sql/rollback/01__create_account_table_rollback.sql" relativeToChangelogFile="true"/>
         </rollback>

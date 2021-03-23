@@ -2,9 +2,9 @@ spring:
   datasource:
     hikari:
       maximum-pool-size: 10
-    url: jdbc:postgresql://localhost:5432/liquibase_example
-    password: liquibase_example_password
-    username: liquibase_example_user
+    url: jdbc:postgresql://localhost:5432/hr_sample
+    password: 1
+    username: postgres
   liquibase:
     change-log: "classpath:db/master.xml"
     enabled: false

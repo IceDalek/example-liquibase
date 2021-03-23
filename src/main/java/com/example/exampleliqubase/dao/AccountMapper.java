@@ -4,6 +4,8 @@ import java.util.List;
 
 import com.example.exampleliqubase.model.AccountEntity;
 
+import com.example.exampleliqubase.model.EmploymentEntity;
+import com.example.exampleliqubase.model.PersonEntity;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
@@ -22,4 +24,8 @@ public interface AccountMapper {
 
     @Select("select * from account_entity_liquibase")
     List<AccountEntity> getListAccounts();
+
+
+
+
 }

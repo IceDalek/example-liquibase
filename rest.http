@@ -1,20 +1,12 @@
-POST http://localhost:8080/api/save
+POST http://localhost:8080/save/empl
 Content-Type: application/json
 
 {
-  "username": "1",
-  "password": "2",
-  "country":"3"
-}
-
-
-####
-
-POST http://localhost:8080/api/list
-Content-Type: application/json
-
-{
-"username": "1",
-"password": "2",
-"country":"3"
+  "employment_id": "2",
+  "start_dt": "2020-08-04",
+  "end_dt": "2020-10-03",
+  "version": "4",
+  "organization_name": "ООО ЭйТи Консальтинг",
+  "position_name": "Аналитик",
+  "person_id": "6"
 }

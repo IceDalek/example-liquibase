@@ -1,0 +1,37 @@
+package com.example.exampleliqubase.service;
+
+import com.example.exampleliqubase.api.EmploymentService;
+import com.example.exampleliqubase.dao.EmploymentMapper;
+import com.example.exampleliqubase.dto.EmploymentDTO;
+import com.example.exampleliqubase.model.EmploymentEntity;
+import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import javax.sql.DataSource;
+@Service
+public class EmploymentServiceImpl implements EmploymentService {
+    @Autowired
+    private EmploymentMapper employmentMapper;
+
+    @Autowired
+    private ModelMapper modelMapper;
+
+    @Autowired
+    private DataSource dataSource;
+
+    @Transactional
+    @Override
+    public EmploymentDTO save(EmploymentDTO employmentDTO) {
+
+        EmploymentEntity employmentEntity = modelMapper.map(employmentDTO, EmploymentEntity.class);
+        //тут какая-то логика
+        employmentMapper.save(employmentEntity);
+
+        //тут еще какая-то логика
+
+        return modelMapper.map(employmentEntity, EmploymentDTO.class);
+    }
+
+}

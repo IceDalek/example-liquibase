@@ -1,9 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ad296df3-0939-45d0-8dbd-8b4b194d8bb2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/api/EmploymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/api/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/dao/EmploymentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/dao/PersonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/dto/EmploymentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/dto/PersonDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/model/EmploymentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/service/EmploymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/service/PersonServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/1.0.1/sql/02__create_person_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/1.0.1/sql/03__create_employment_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example-liqubase.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/dao/AccountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/dao/AccountMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/V1.0.1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/V1.0.1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/dev/liquibase.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/dev/liquibase.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/local/liquibase.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/local/liquibase.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/prod/liquibase.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/prod/liquibase.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="local" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qANpINKkgjvUyjcXhPK4xIWHxU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExampleLiqubaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="example-liquibase555" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.exampleliqubase.ExampleLiqubaseApplication" />
@@ -11,5 +85,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad296df3-0939-45d0-8dbd-8b4b194d8bb2" name="Default Changelist" comment="" />
+      <created>1616518615206</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616518615206</updated>
+      <workItem from="1616518616337" duration="6893000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="271" y="390" width="1367" height="333" key="#SQL_Dialects" timestamp="1616519759353">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="271" y="390" width="1367" height="333" key="#SQL_Dialects/0.27.1920.1053@0.27.1920.1053" timestamp="1616519759353" />
+    <state x="555" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616519138484">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1616519138484" />
+    <state x="768" y="261" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1616521850017">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="768" y="261" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1616521850017" />
+    <state width="1874" height="200" key="GridCell.Tab.0.bottom" timestamp="1616525442281">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="200" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1616525442281" />
+    <state width="1874" height="200" key="GridCell.Tab.0.center" timestamp="1616525442280">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="200" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1616525442280" />
+    <state width="1874" height="200" key="GridCell.Tab.0.left" timestamp="1616525442280">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="200" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1616525442280" />
+    <state width="1874" height="200" key="GridCell.Tab.0.right" timestamp="1616525442280">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="200" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1616525442280" />
+    <state x="775" y="435" width="367" height="258" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1616519524919">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="775" y="435" width="367" height="258" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.27.1920.1053@0.27.1920.1053" timestamp="1616519524919" />
   </component>
 </project>
