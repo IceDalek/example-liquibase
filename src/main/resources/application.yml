@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    hikari:
+      maximum-pool-size: 10
+    url: jdbc:postgresql://localhost:5432/liquibase_example
+    password: liquibase_example_password
+    username: liquibase_example_user
+  liquibase:
+    change-log: "classpath:db/master.xml"
+    enabled: false
+
+
+logging:
+  level:
+    org.springframework.web: ${LOG_LEVEL:INFO}
+    org.apache.ibatis: ${LOG_LEVEL:INFO}
+    org.mybatis.spring: ${LOG_LEVEL:INFO}
