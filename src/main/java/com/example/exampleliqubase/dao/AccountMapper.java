@@ -26,6 +26,4 @@ public interface AccountMapper {
     List<AccountEntity> getListAccounts();
 
 
-
-
 }

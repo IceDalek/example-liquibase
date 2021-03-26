@@ -19,28 +19,6 @@ public class AccountController {
     @Autowired
     private AccountService accountService;
 
-    @Autowired
-    EmploymentService employmentService;
-
-    @Autowired
-    PersonService personService;
-
-    @PostMapping("/save/empl")
-    public EmploymentDTO saveEmpl(@RequestBody @Validated EmploymentDTO employmentDTO) {
-
-        return employmentService.save(employmentDTO);
-    }
-
-    @GetMapping("/save/emplx")
-    public void saveEmpl(@RequestBody @Validated List<EmploymentDTO> employmentDTO) {
-        System.out.println(employmentDTO);
-        //return employmentService.save(employmentDTO);
-    }
-
-    @PostMapping("/save/person")
-    public PersonDTO savePerson(@RequestBody @Validated PersonDTO personDTO){
-        return personService.save(personDTO);
-    }
 
     @PostMapping("/list")
     public List<AccountDTO> getListAccounts() {

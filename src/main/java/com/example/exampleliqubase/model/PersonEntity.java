@@ -10,11 +10,11 @@ import java.sql.Date;
 @NoArgsConstructor
 @Data
 public class PersonEntity {
-private Long person_id;
-private String first_name;
-private String last_name;
-private String middle_name;
-private Date birth_date;
+private Long personId;
+private String firstName;
+private String lastName;
+private String middleName;
+private Date birthDate;
 private String gender;
 
 }

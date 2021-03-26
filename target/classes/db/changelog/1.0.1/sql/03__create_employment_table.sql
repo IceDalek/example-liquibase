@@ -33,4 +33,6 @@ comment on column employment.organization_address is 'адрес организ�
 alter table employment
     add constraint person_id_fk foreign key (person_id) references person (person_id);
 
-    insert into employment(employment_id, version, start_dt, end_dt, work_type_id, organization_name, organization_address, position_name, person_id) VALUES
+   insert into employment(employment_id, version, start_dt, end_dt, work_type_id, organization_name, organization_address, position_name, person_id) VALUES
+(1, 1, '2019-01-01', '2020-01-01', 1, 'VTB', 'Gde-to tam', 'team lead', 1);
+

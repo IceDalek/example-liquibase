@@ -24,11 +24,12 @@ public class PersonServiceImpl implements PersonService {
 
     @Autowired
     private DataSource dataSource;
+
     @Transactional
     @Override
-    public PersonDTO save(PersonDTO  PersonDTO ) {
+    public PersonDTO save(PersonDTO PersonDTO) {
 
-       PersonEntity personEntity = modelMapper.map(PersonDTO , PersonEntity.class);
+        PersonEntity personEntity = modelMapper.map(PersonDTO, PersonEntity.class);
         //тут какая-то логика
         personMapper.savePerson(personEntity);
 
@@ -37,4 +38,11 @@ public class PersonServiceImpl implements PersonService {
         return modelMapper.map(personEntity, PersonDTO.class);
     }
 
+    @Transactional
+    @Override
+    public PersonDTO getPersonById(Long id) {
+        PersonEntity personEntity = personMapper.getPersonById(id);
+
+        return modelMapper.map(personEntity, PersonDTO.class);
+    }
 }

@@ -9,13 +9,17 @@ import java.sql.Date;
 @NoArgsConstructor
 @Data
 public class EmploymentDTO {
-    private Long employment_id;
+    private Long employmentId;
     private Integer version;
-    private Date start_dt;
-    private Date end_dt;
-    private Long work_type_id;
-    private String organization_name;
-    private String organization_address;
-    private String position_name;
-    private Long person_id;
+    private Date startDt;
+    private Date endDt;
+    private Long workTypeId;
+    private String organizationName;
+    private String organizationAddress;
+    private String positionName;
+    private Long personId;
+
+    public Long getEmploymentId() {
+        return employmentId;
+    }
 }

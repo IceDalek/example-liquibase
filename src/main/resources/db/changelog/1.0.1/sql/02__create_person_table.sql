@@ -24,5 +24,3 @@ comment on column person.middle_name is 'Фамилия';
 comment on column person.birth_date is 'Дата рождения';
 
 comment on column person.gender is 'Пол';
-
-insert into person(person_id, first_name, last_name, middle_name, birth_date, gender) V
