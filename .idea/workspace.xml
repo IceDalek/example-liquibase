@@ -5,35 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad296df3-0939-45d0-8dbd-8b4b194d8bb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/controller/EmploymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/controller/PersonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/api/EmploymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/api/EmploymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/api/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/api/PersonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/dao/AccountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/dao/AccountMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/dao/EmploymentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/dao/EmploymentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/dao/PersonMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/dao/PersonMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/dto/EmploymentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/dto/EmploymentDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/dto/PersonDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/dto/PersonDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/model/EmploymentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/model/EmploymentEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/model/PersonEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/model/PersonEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/service/EmploymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/service/EmploymentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/service/PersonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/service/PersonServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/1.0.1/sql/02__create_person_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/1.0.1/sql/02__create_person_table.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/1.0.1/sql/03__create_employment_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/1.0.1/sql/03__create_employment_table.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/exampleliqubase/api/PersonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/exampleliqubase/api/PersonService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/exampleliqubase/controller/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/exampleliqubase/controller/AccountController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/exampleliqubase/dao/EmploymentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/exampleliqubase/dao/EmploymentMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/exampleliqubase/dao/PersonMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/exampleliqubase/dao/PersonMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/exampleliqubase/dto/EmploymentDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/exampleliqubase/dto/EmploymentDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/exampleliqubase/dto/PersonDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/exampleliqubase/dto/PersonDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/exampleliqubase/model/EmploymentEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/exampleliqubase/model/EmploymentEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/exampleliqubase/model/PersonEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/exampleliqubase/model/PersonEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/exampleliqubase/service/PersonServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/exampleliqubase/service/PersonServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/changelog/1.0.1/sql/02__create_person_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/changelog/1.0.1/sql/02__create_person_table.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/changelog/1.0.1/sql/03__create_employment_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/changelog/1.0.1/sql/03__create_employment_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/exampleliqubase/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +22,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
     <option name="enabledProfiles">
       <list>
         <option value="local" />
@@ -71,11 +54,71 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ExampleLiqubaseApplication">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/db/changelog/1.0.1/sql" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/api/save/user" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;userId&quot;: 2,&#10;  &quot;username&quot;:&quot;keka&quot;,&#10;  &quot;password&quot;:&quot;1234&quot;,&#10;  &quot;country&quot;:&quot;ru&quot;,&#10;  &quot;role&quot;:1&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/api/save/user" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;userId&quot;: 2,&#10;  &quot;username&quot;:&quot;keka&quot;,&#10;  &quot;password&quot;:&quot;1234&quot;,&#10;  &quot;country&quot;:&quot;ru&quot;,&#10;  &quot;role&quot;:1&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ExampleLiqubaseApplication (1)">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rest#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/rest.http" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="ExampleLiqubaseApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="example-liqubase" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.exampleliqubase.ExampleLiqubaseApplication" />
@@ -90,6 +133,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.rest#2" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -103,6 +151,14 @@
       <workItem from="1616662392946" duration="5782000" />
       <workItem from="1616755796602" duration="3948000" />
     </task>
+    <task id="LOCAL-00001" summary="add creation of user">
+      <created>1616784432876</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616784432876</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,5 +175,79 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add creation of user" />
+    <option name="LAST_COMMIT_MESSAGE" value="add creation of user" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="584" y="355" width="741" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616778916142">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="584" y="355" width="741" height="403" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1616778916142" />
+    <state x="768" y="261" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1616780034580">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="768" y="261" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1616780034580" />
+    <state x="392" y="100" width="1126" height="914" key="CommitChangelistDialog2" timestamp="1616784432752">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="392" y="100" width="1126" height="914" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1616784432752" />
+    <state width="1874" height="340" key="GridCell.Tab.0.bottom" timestamp="1616783927037">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1616783927037" />
+    <state width="1874" height="340" key="GridCell.Tab.0.center" timestamp="1616783927037">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1616783927037" />
+    <state width="1874" height="340" key="GridCell.Tab.0.left" timestamp="1616783927036">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1616783927036" />
+    <state width="1874" height="340" key="GridCell.Tab.0.right" timestamp="1616783927037">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1616783927037" />
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1616783927037">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1616783927037" />
+    <state width="1874" height="340" key="GridCell.Tab.1.center" timestamp="1616783927037">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1616783927037" />
+    <state width="1874" height="340" key="GridCell.Tab.1.left" timestamp="1616783927037">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1616783927037" />
+    <state width="1874" height="340" key="GridCell.Tab.1.right" timestamp="1616783927037">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1616783927037" />
+    <state width="1874" height="340" key="GridCell.Tab.2.bottom" timestamp="1616783927038">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.2.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1616783927038" />
+    <state width="1874" height="340" key="GridCell.Tab.2.center" timestamp="1616783927038">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.2.center/0.27.1920.1053@0.27.1920.1053" timestamp="1616783927038" />
+    <state width="1874" height="340" key="GridCell.Tab.2.left" timestamp="1616783927038">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.2.left/0.27.1920.1053@0.27.1920.1053" timestamp="1616783927038" />
+    <state width="1874" height="340" key="GridCell.Tab.2.right" timestamp="1616783927038">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.2.right/0.27.1920.1053@0.27.1920.1053" timestamp="1616783927038" />
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1616784467216">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1616784467216" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1616779533980">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1616779533980" />
   </component>
 </project>
